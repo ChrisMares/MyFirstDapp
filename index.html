@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Test Out Ethereum</title>
+  <meta name="Simple web3 project" content="Simple web3 project">
+  <meta name="chris mares">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="./web3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="./index.js"></script>
+</head>
+
+<body class="container">
+
+    <div>
+        <div class="form-group">
+            <label for="output:">Output:</label>
+            <textarea class="form-control" rows="8" id="output"></textarea>
+          </div>
+
+        <div class="row p-2">
+            <button id="clear" class="btn btn-primary">Clear</button>
+        </div>
+
+        <div class="row p-2">
+            <button id="getGasPriceId" class="btn btn-primary">Get Gas Price</button>
+        </div>
+
+        <div class="row p-2">
+            <button id="getBarcodesBtnId" class="btn btn-primary">Barcodes Array</button>
+        </div>
+
+        <div class="row p-2">
+            <button id="getFirstAccountButtonId" class="btn btn-primary">Get Account</button>
+        </div>
+
+        <div class="row p-2">
+            <input type="text" id="setBarcodeTextId" placeholder="barcode">
+        </div>
+        <div class="row p-2">
+            <button id="setBarcodeButtonId" class="btn btn-primary">Add Barcode With Signiture</button>
+        </div>
+
+        <div class="row p-2">
+            <input type="text" id="barcodeToFindId" placeholder="barcode to look for">
+        </div>
+        <div class="row p-2">
+            <button id="decodeBarcodeId" class="btn btn-primary">Get Address By Barcode</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
